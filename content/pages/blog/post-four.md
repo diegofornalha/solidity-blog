@@ -23,7 +23,8 @@ bottomSections:
   - elementId: ''
     variant: variant-c
     colors: colors-a
-    title: Read next
+    title: 
+Leia a seguir
     recentCount: 3
     styles:
       self:
