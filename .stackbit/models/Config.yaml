@@ -10,7 +10,7 @@ fields:
   - type: image
     name: favicon
     label: Favicon
-    default: 'https://assets.stackbit.com/components/images/default/favicon.svg'
+    default: 'https://assets.stackbit.com/components/images/default/favicon.png'
   - type: model
     name: header
     label: Header configuration
