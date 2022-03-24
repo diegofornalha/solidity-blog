@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - elementId: ''
     showDate: true
-    showAuthor: true
+    showAuthor: false
     showExcerpt: false
     variant: variant-c
     actions:
