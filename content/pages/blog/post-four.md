@@ -4,8 +4,17 @@ layout: PostLayout
 date: '2021-11-03'
 author: content/data/team/desmond-eagle.json
 excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  O Hardhat foi criado pela Nomic Labs, ajuda os desenvolvedores a gerenciar e
+  automatizar as tarefas comuns do processo de construção de contratos
+  inteligentes e Dapps, introduzindo facilmente mais funcionalidades em torno
+  desse fluxo de trabalho. Isso significa que você pode compilar, executar e
+  testar contratos inteligentes em seu núcleo.
+
+
+  Ele se concentra na depuração de solidez, apresenta rastreamentos de pilha
+  explícitos e mensagens de erro quando as transações falham. O Hardhat vem
+  integrado com o Hardhat Network, uma rede local Ethereum projetada para
+  desenvolvimento e uma CLI para interagir com as principais funcionalidades.
 featuredImage:
   type: ImageBlock
   url: /images/post-4.jpg
@@ -20,8 +29,16 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-56', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         textAlign: center
