@@ -10,10 +10,8 @@ excerpt: >-
   Remix é um aplicativo de web e desktop de código aberto. O Remix é usado para
   escrever, testar e implantar contratos inteligentes, você pode usá-lo como um
   playground para aprender e ensinar o desenvolvimento de blockchain. O Remix
-  IDE (toda vez que você ver o remix neste artigo, estou falando do Remix IDE, a
-  menos que especifique o contrário) faz parte do projeto Remix que é uma
-  plataforma para ferramentas de desenvolvimento que usam uma arquitetura de
-  plugins.
+  IDE faz parte do projeto Remix que é uma plataforma para ferramentas de
+  desenvolvimento que usam uma arquitetura de plugins.
 
 
   O Remix é composto por uma cadeia de subprojetos, incluindo Remix Plugin
