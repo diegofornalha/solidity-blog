@@ -14,11 +14,21 @@ sections:
         icon: arrowRight
     items:
       - question: Quais conteúdos vou ver no blog?
-        answer: >
-          At the office, working together is often a distraction, on remote, it
-          could be motivation, At the office, working together is often a
-          distraction, on remote, it could be motivation, At the office, working
-          together is often a distraction, on remote, it could be motivation
+        answer: >+
+          Com o recente boom do desenvolvimento de blockchain, muitos
+          desenvolvedores querem conhecer as melhores ferramentas para começar a
+          trabalhar neste mundo novo e incrível. Se você gastar 10 segundos
+          pesquisando ou procurando conselhos de comunidades de blockchains, as
+          opções mais populares que todos vão falar são Hardhat, Truffle e
+          Remix. Esses são ambientes de desenvolvimento blockchain realmente
+          bons para compilar, testar e implantar software blockchain. Mas no
+          final das contas, é difícil não começar a fazer comparações de qual
+          ferramenta é a melhor para as necessidades do seu projeto e qual vai
+          economizar seu tempo e oferecer a melhor experiência de
+          desenvolvimento. Este artigo é uma comparação entre Hardhat, Truffle e
+          Remix, com foco em suas características e ecossistema para poder tomar
+          uma decisão de qual biblioteca usar para seu caso de uso específico.
+
     styles:
       self:
         height: auto
