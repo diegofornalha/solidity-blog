@@ -1,7 +1,7 @@
 ---
 title: 'Truffle '
 layout: PostLayout
-date: '2021-07-01'
+date: '2022-03-01'
 excerpt: >-
   O Truffle foi criado pela Consensys, é um ambiente de desenvolvimento,
   estrutura de teste e pipeline de ativos para blockchains usando a Ethereum
