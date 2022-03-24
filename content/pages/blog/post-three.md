@@ -51,6 +51,7 @@ bottomSections:
     type: RecentPostsSection
 metaTitle: 'Truffle '
 addTitleSuffix: true
+author: content/data/team/desmond-eagle.json
 ---
 O Truffle foi criado pela Consensys, é um ambiente de desenvolvimento, estrutura de teste e pipeline de ativos para blockchains usando a Ethereum Virtual Machine (EVM). Com o Truffle, você obtém muitas características importantes que podem ajudá-lo a desenvolver Dapps, como um console interativo para comunicação direta de contrato, gerenciamento de rede para implantação em qualquer rede pública e privada, compilação de contrato, vinculação e gerenciamento binário.
 
