@@ -17,7 +17,7 @@ excerpt: >-
   desenvolvimento e uma CLI para interagir com as principais funcionalidades.
 featuredImage:
   type: ImageBlock
-  url: /images/3d.gif
+  url: /images/HardHat blockchain.jpg
   altText: Post Image
 bottomSections:
   - elementId: ''
