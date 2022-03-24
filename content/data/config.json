@@ -24,7 +24,7 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "Sign up",
+                "label": "PARCEIROS",
                 "url": "/",
                 "altText": "Sign up",
                 "style": "primary"
