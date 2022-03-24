@@ -95,7 +95,7 @@
             {
                 "type": "Link",
                 "label": "Blog",
-                "url": "/blog",
+                "url": "https://coflow.com.br/faqblog",
                 "altText": ""
             }
         ],
