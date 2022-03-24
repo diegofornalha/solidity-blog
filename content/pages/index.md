@@ -63,7 +63,7 @@ sections:
       Aprenda Tudo o Que Envolve o Mundo Dos Contratos Inteligentes
     actions:
       - type: Button
-        label: Try it now
+        label: VÁ ATÉ O BLOG
         url: /
         style: primary
     backgroundImage: null
