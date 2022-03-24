@@ -3,7 +3,7 @@ title: Solidity
 layout: PageLayout
 sections:
   - elementId: ''
-    showDate: false
+    showDate: true
     showAuthor: false
     showExcerpt: false
     variant: variant-c
