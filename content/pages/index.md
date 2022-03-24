@@ -59,9 +59,8 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Conteúdo Exclusivo
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: |
+      Aprenda Tudo o Que Envolve o Mundo Dos Contratos Inteligentes
     actions:
       - type: Button
         label: Try it now
