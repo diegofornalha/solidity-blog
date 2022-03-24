@@ -16,7 +16,7 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "Tudo Sobre o Assunto",
                 "altText": "Blog",
                 "url": "/blog"
             }
