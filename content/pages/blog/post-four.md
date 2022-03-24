@@ -1,7 +1,7 @@
 ---
 title: 'Hardhat '
 layout: PostLayout
-date: '2021-11-03'
+date: '2022-03-03'
 author: content/data/team/desmond-eagle.json
 excerpt: >-
   O Hardhat foi criado pela Nomic Labs, ajuda os desenvolvedores a gerenciar e
