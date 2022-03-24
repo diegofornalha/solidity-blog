@@ -34,7 +34,7 @@ sections:
         textAlign: center
       actions:
         justifyContent: center
-    title: Featured
+    title: Conteúdo
     subtitle: Featured blog posts section example
     colors: colors-h
     posts:
