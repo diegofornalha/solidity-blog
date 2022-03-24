@@ -81,8 +81,6 @@ Cada Box gira essencialmente em torno de um `truffle-box.json`arquivo de config
 
 A desvantagem das caixas não é flexível quando você quer coisas específicas. Você precisa usar a caixa completa e não apenas uma parte dela, e quando quiser substituir ou estender o Truffle para adicionar funcionalidades específicas, como gerar uma gramática UML para cada contrato e usá-la em diferentes projetos, essa não é uma funcionalidade fácil de adicionar.
 
-
-
 Teste
 
 O Truffle vem com um conjunto de bibliotecas de teste para facilitar o teste imediatamente, a primeira maneira de testar seus contratos inteligentes é com javascript e typescript. Truffle vem com Mocha, Chai e Web3.js para escrever testes de javascript.
@@ -119,4 +117,10 @@ $ teste de trufasCompilando seus contratos .. .===========================> Comp
 
 
 
+## **Quais empresas usam trufas?**
 
+A BitGo é líder em custódia, negociação e finanças de ativos digitais institucionais. O BitGo permite que os clientes naveguem no cenário complexo de ativos digitais com um conjunto de soluções conectado, compatível e seguro.
+
+O protocolo da 1inch raspa muitas DEXs para encontrar a plataforma mais barata, contabilizando as taxas e o preço do próprio ativo. Este agregador de DEX identifica automaticamente a negociação mais barata a ser executada, tornando-se uma ferramenta valiosa para qualquer trader. Em vez de depender de um único protocolo DeFi para comprar um ativo criptográfico
+
+O JPMorgan Chase & Co. é um banco de investimento multinacional americano e uma holding de serviços financeiros com sede na cidade de Nova York. é um importante fornecedor de vários serviços bancários e financeiros de investimento. A partir de 2021, é o maior credor para a indústria de combustíveis fósseis do mundo.
