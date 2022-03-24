@@ -123,6 +123,14 @@
                 "icon": "instagram"
             },
             {
+                "label": "Facebook",
+                "altText": "",
+                "url": "/",
+                "icon": "facebook",
+                "style": "link",
+                "elementId": ""
+            },
+            {
                 "type": "Social",
                 "altText": "Facebook",
                 "label": "Facebook",
