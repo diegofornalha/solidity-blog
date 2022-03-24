@@ -11,7 +11,7 @@ excerpt: >-
   testar contratos inteligentes em seu núcleo.
 
 
-  Ele se concentra na depuração de solidez, apresenta rastreamentos de pilha
+  Ele se concentra na depuração de solidity, apresenta rastreamentos de pilha
   explícitos e mensagens de erro quando as transações falham. O Hardhat vem
   integrado com o Hardhat Network, uma rede local Ethereum projetada para
   desenvolvimento e uma CLI para interagir com as principais funcionalidades.
