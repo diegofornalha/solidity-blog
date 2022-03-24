@@ -17,7 +17,7 @@ excerpt: >-
   desenvolvimento e uma CLI para interagir com as principais funcionalidades.
 featuredImage:
   type: ImageBlock
-  url: /images/post-4.jpg
+  url: /images/3d.gif
   altText: Post Image
 bottomSections:
   - elementId: ''
