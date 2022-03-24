@@ -5,7 +5,7 @@ sections:
   - colors: colors-f
     elementId: ''
     title: Por onde começar?
-    subtitle: We are here to help
+    subtitle: Tire suas dúvidas
     actions:
       - type: Link
         label: See all
