@@ -5,7 +5,7 @@ sections:
   - colors: colors-f
     elementId: ''
     title: Por onde começar?
-    subtitle: Tire suas dúvidas
+    subtitle: Você transborda conhecimento?
     actions:
       - type: Link
         label: Seja um Parceiro
