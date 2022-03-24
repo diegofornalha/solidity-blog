@@ -10,7 +10,7 @@ sections:
     actions:
       - type: Button
         label: Ver Todos
-        altText: View All Posts
+        altText: 'Ver Todas as '
         url: /blog
         style: primary
     styles:
