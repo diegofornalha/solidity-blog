@@ -63,8 +63,6 @@ Você pode personalizar seus testes com apenas alguns cliques, como a versão do
 
 ![](https://theblockchainguy.dev/static/remix-test-d306c33833104c27f8d4571270a1d0a0.png)Teste de remixagem usando o plug-in de teste de unidade de solidez.![](https://theblockchainguy.dev/static/remix-test-customization-e1019222291d0099c8ec8997369aa45b.png)Aba de personalização de remixes.
 
-
-
 **Quais empresas usam o Remix?**
 
 OpenSea é um mercado de token não fungível (NFT) descentralizado para compra, venda e negociação de NFTs. A marca OpenSea como o maior mercado para produtos digitais foi construída por meio de uma colaboração enxuta e uma vontade de investir em novas tecnologias empolgantes.
@@ -72,8 +70,3 @@ OpenSea é um mercado de token não fungível (NFT) descentralizado para compra,
 O Ethereum.org é um recurso público e de código aberto para a comunidade Ethereum com o qual qualquer pessoa pode contribuir, é um recurso educacional, projetado para ajudar novos usuários a se familiarizarem com o Ethereum e seus principais conceitos.
 
 Moonbeam é uma blockchain orientada para o desenvolvedor que se esforça para fornecer compatibilidade com a cadeia de ferramentas e a rede do desenvolvedor Ethereum existente. Ele faz isso fornecendo uma implementação completa de EVM, uma API compatível com Web3 e pontes que conectam o Moonbeam às redes Ethereum existentes.
-
-
-
-
-
