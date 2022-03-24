@@ -4,8 +4,8 @@ layout: PageLayout
 sections:
   - elementId: ''
     showDate: true
-    showAuthor: false
-    showExcerpt: false
+    showAuthor: true
+    showExcerpt: true
     variant: variant-c
     actions:
       - type: Button
