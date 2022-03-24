@@ -19,7 +19,7 @@ excerpt: >-
   você testar e ver qual versão você prefere.
 featuredImage:
   type: ImageBlock
-  url: /images/3d.gif
+  url: /images/Truffle blockchain.png
   altText: Post Image
 bottomSections:
   - elementId: ''
