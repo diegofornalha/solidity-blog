@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Solidity
 layout: PageLayout
 sections:
   - colors: colors-f
