@@ -1,6 +1,6 @@
 ---
 layout: PostFeedLayout
-title: Blog
+title: Postagens Recentes
 numOfPostsPerPage: 10
 postFeed:
   showDate: true
