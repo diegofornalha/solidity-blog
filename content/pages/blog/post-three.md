@@ -19,7 +19,7 @@ excerpt: >-
   você testar e ver qual versão você prefere.
 featuredImage:
   type: ImageBlock
-  url: /images/post-3.jpg
+  url: /images/3d.gif
   altText: Post Image
 bottomSections:
   - elementId: ''
