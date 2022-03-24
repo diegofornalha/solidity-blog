@@ -8,7 +8,7 @@ sections:
     subtitle: Tire suas dúvidas
     actions:
       - type: Link
-        label: Envie sua pergunta
+        label: Seja um Parceiro
         url: /
         showIcon: true
         icon: arrowRight
