@@ -14,7 +14,7 @@ sections:
         icon: arrowRight
     items:
       - question: Quais conteúdos vou ver no blog?
-        answer: >-
+        answer: >
           At the office, working together is often a distraction, on remote, it
           could be motivation, At the office, working together is often a
           distraction, on remote, it could be motivation, At the office, working
