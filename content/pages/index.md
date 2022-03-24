@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - colors: colors-f
     elementId: ''
-    title: Por onde começar?
+    title: Bons Estudos
     subtitle: Você transborda conhecimento?
     actions:
       - type: Link
