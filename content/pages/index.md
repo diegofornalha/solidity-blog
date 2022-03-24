@@ -9,7 +9,7 @@ sections:
     actions:
       - type: Link
         label: Seja um Parceiro
-        url: /
+        url: 'https://coflow.com.br/parceiros/'
         showIcon: true
         icon: arrowRight
     items:
