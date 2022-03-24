@@ -9,7 +9,7 @@ sections:
     variant: variant-c
     actions:
       - type: Button
-        label: View All
+        label: Ver todos
         altText: View All Posts
         url: /blog
         style: primary
