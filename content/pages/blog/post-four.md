@@ -1,5 +1,5 @@
 ---
-title: 'Hardhat '
+title: 'HardHat '
 layout: PostLayout
 date: '2022-03-24'
 author: content/data/team/desmond-eagle.json
