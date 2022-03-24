@@ -64,7 +64,7 @@ sections:
     actions:
       - type: Button
         label: IR PARA O BLOG
-        url: /
+        url: /blog
         style: primary
     backgroundImage: null
     styles:
