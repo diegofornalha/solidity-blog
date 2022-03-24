@@ -35,7 +35,7 @@ sections:
       actions:
         justifyContent: center
     title: Conteúdo
-    subtitle: Featured blog posts section example
+    subtitle: Contratos Inteligentes
     colors: colors-h
     posts:
       - content/pages/blog/post-three.md
