@@ -26,7 +26,7 @@
                 "type": "Button",
                 "label": "PARCEIROS",
                 "url": "https://coflow.com.br/parceiros",
-                "altText": "Sign up",
+                "altText": "PARCEIROS",
                 "style": "primary"
             }
         ],
