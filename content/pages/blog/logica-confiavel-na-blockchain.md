@@ -39,10 +39,6 @@ featuredImage:
 bottomSections: []
 layout: PostLayout
 ---
-O blockchain nos permite armazenar dados que sejam consistentes e que possam ser confiáveis. Como adicionar lógica que execute a mesma coisa em cada nó?
-
-Em nosso cenário, precisamos de lógica para transferir a responsabilidade do produto de um participante para outro. Também precisamos usar dados do sensor de temperatura IoT para saber se a temperatura está muito alta.
-
 Um DApp (aplicativo descentralizado) é um aplicativo em um sistema de computação distribuída. Neste módulo, vamos nos concentrar no uso do protocolo de blockchain Ethereum. Os DApps do Ethereum são chamados de contratos inteligentes. Um contrato inteligente contém a lógica que é executada como parte de uma transação. No Ethereum, você programa a lógica usando uma linguagem de programação chamada Solidity.
 
 Os contratos inteligentes são implantados no blockchain e são referenciados por um endereço. Para usar um contrato inteligente, você cria uma instância. Uma instância de contrato inteligente contém dados de estado e lógica de programa. Em nosso cenário, uma instância de contrato inteligente contém dados como, o participante responsável, a localização e se a temperatura do produto está fora de conformidade. Podemos executar funções para transferir a responsabilidade ou receber telemetria de temperatura de uma instância.
