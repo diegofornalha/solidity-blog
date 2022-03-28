@@ -33,7 +33,7 @@ excerpt: >-
   responsabilidade ou receber telemetria de temperatura de uma instância.
 featuredImage:
   type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
+  url: /images/seguranca blockchain.webp
   altText: Post thumbnail image
   caption: ''
 bottomSections: []
