@@ -378,8 +378,6 @@ constructor() public {
 
 ```
 
-
-
 # Explorar documentos de referência
 
 Ao escrever contratos, você também deve compreender os tipos de referência.
@@ -515,6 +513,68 @@ contract Items {
 ` Observação`
 
 `A assinatura de mapeamento uint256 => Items_Schema indica que as chaves são um tipo inteiro sem sinal e os valores são de tipo struct Items_Schema.`
+
+
+# Solidity para criar um contrato inteligente para um marketplace online simples. 
+
+Este contrato permitirá aos usuários listar um item para venda e comprar um item disponível. Há duas funções envolvidas: um vendedor e um comprador.
+
+## Exemplo de marketplace simples
+
+```
+pragma solidity >0.7.0 <0.8.0;
+
+contract Marketplace {
+    address public seller;
+    address public buyer;
+    mapping (address => uint) public balances;
+
+    event ListItem(address seller, uint price);
+    event PurchasedItem(address seller, address buyer, uint price);
+
+    enum StateType {
+          ItemAvailable,
+          ItemPurchased
+    }
+
+    StateType public State;
+
+    constructor() public {
+        seller = msg.sender;
+        State = StateType.ItemAvailable;
+    }
+
+    function buy(address seller, address buyer, uint price) public payable {
+        require(price <= balances[buyer], "Insufficient balance");
+        State = StateType.ItemPurchased;
+        balances[buyer] -= price;
+        balances[seller] += price;
+
+        emit PurchasedItem(seller, buyer, msg.value);
+    }
+}    
+
+```
+
+Vamos nos aprofundar nos principais componentes deste contrato inteligente:
+
+*   Elas são:
+
+    *   Três variáveis de estado: `buyer`, `seller` e `balances`
+
+    *   Dois eventos: `ListItem` e `PurchasedItem`
+
+    *   Uma enumeração com dois valores: `ItemAvailable` e `ItemPurchased`
+
+*   O construtor designa o usuário do vendedor como `msg.sender` e define o estado inicial como `ItemAvailable`. Esse construtor é chamado quando o contrato é criado.
+
+*   A função `buy` usa três parâmetros: `seller`, `buyer` e `price`. Ela exige que o comprador tenha dinheiro suficiente para a compra. Em seguida, transfere o dinheiro do comprador para o vendedor e, por fim, uma mensagem é emitida.
+
+## Próximas etapas
+
+Acesse [Remix IDE](https://remix.ethereum.org/) para explorar mais exemplos de contratos inteligentes no Solidity. O [remix ](https://solidity.coflow.com.br/blog/remix/)é um IDE no navegador que permite que você comece imediatamente sem precisar criar uma conta nem logar. Você pode gravar, testar, compilar e implantar contratos imediatamente.
+
+Copie e cole este contrato inteligente no [Remix ](https://solidity.coflow.com.br/blog/remix/)em um novo arquivo chamado `Marketplace.sol`. Em seguida, compile e implante o contrato. Embora o contrato tenha uma função para comprar um item disponível, você observará que não é possível fornecer uma moeda do comprador para fazer a compra. Como desafio extra, use o que você aprendeu para escrever uma função para dar um saldo ao comprador, fornecendo um endereço de conta e um valor. Se quiser ver um exemplo de como fazer isso, assista ao [Dr. G adicionar uma função para inicializar um saldo para os participantes](https://aka.ms/LearnWithDrG/Blockchain/Challenge1).
 
 
 
