@@ -83,217 +83,155 @@ featuredImage:
 bottomSections: []
 layout: PostLayout
 ---
-O Solidity é uma linguagem orientada a objeto para escrever contratos inteligentes.
+###### O Solidity é uma linguagem orientada a objeto para escrever contratos inteligentes.
 
-Contratos inteligentes são programas armazenados dentro de um blockchain. Eles especificam as regras e o comportamento de como os ativos digitais são transferidos. Você usa o Solidity para programar contratos inteligentes para a plataforma de blockchain Ethereum. Os contratos inteligentes contêm lógica programável e estado. As transações resultam em funções executadas em contratos inteligentes. Assim, os contratos inteligentes permitem que você crie um fluxo de trabalho empresarial.
+###### Contratos inteligentes são programas armazenados dentro de um blockchain. Eles especificam as regras e o comportamento de como os ativos digitais são transferidos. Você usa o Solidity para programar contratos inteligentes para a plataforma de blockchain Ethereum. Os contratos inteligentes contêm lógica programável e estado. As transações resultam em funções executadas em contratos inteligentes. Assim, os contratos inteligentes permitem que você crie um fluxo de trabalho empresarial.
 
-Visão geral
-O Solidity é a linguagem de programação mais popular para o blockchain Ethereum.
+###### Visão geral&#xD;&#xA;O Solidity é a linguagem de programação mais popular para o blockchain Ethereum.
 
-O Solidity é uma linguagem de alto nível baseada em outras linguagens de programação, incluindo C++, Python e JavaScript. Caso você conheça qualquer uma dessas linguagens, o código do Solidity vai parecer familiar.
+###### O Solidity é uma linguagem de alto nível baseada em outras linguagens de programação, incluindo C++, Python e JavaScript. Caso você conheça qualquer uma dessas linguagens, o código do Solidity vai parecer familiar.
 
-O Solidity tem tipo estático, o que significa que a verificação de tipo ocorre em tempo de compilação, não em tempo de execução, como em linguagens com tipo dinâmico. Com uma linguagem de tipo estático, você precisa especificar o tipo de cada variável. Por exemplo, Python e JavaScript são linguagens de tipo dinâmico, enquanto C++ tem tipo estático.
+###### O Solidity tem tipo estático, o que significa que a verificação de tipo ocorre em tempo de compilação, não em tempo de execução, como em linguagens com tipo dinâmico. Com uma linguagem de tipo estático, você precisa especificar o tipo de cada variável. Por exemplo, Python e JavaScript são linguagens de tipo dinâmico, enquanto C++ tem tipo estático.
 
-O Solidity dá suporte à herança, o que significa que as funções, variáveis e outras propriedades presentes em um contrato podem ser usadas em outra. A linguagem também dá suporte a tipos complexos definidos pelo usuário, como structs e enums, que permitem agrupar tipos de dados relacionados.
+###### O Solidity dá suporte à herança, o que significa que as funções, variáveis e outras propriedades presentes em um contrato podem ser usadas em outra. A linguagem também dá suporte a tipos complexos definidos pelo usuário, como structs e enums, que permitem agrupar tipos de dados relacionados.
 
-O Solidity é uma linguagem de programação de software livre com uma comunidade crescente de colaboradores. Para saber mais sobre o projeto do Solidity e como contribuir, confira o repositório do GitHub.
+###### O Solidity é uma linguagem de programação de software livre com uma comunidade crescente de colaboradores. Para saber mais sobre o projeto do Solidity e como contribuir, confira o repositório do GitHub.
 
-O que é o Ethereum?
-Antes de continuarmos, você também deve familiarizar-se com o Ethereum.
+###### O que é o Ethereum?&#xD;&#xA;Antes de continuarmos, você também deve familiarizar-se com o Ethereum.
 
-O Ethereum é uma das plataformas blockchain mais populares, logo atrás do Bitcoin. É uma tecnologia criada pela comunidade e tem a própria criptomoeda chamada de ETH (Ether ) que você pode comprar e vender.
+###### O Ethereum é uma das plataformas blockchain mais populares, logo atrás do Bitcoin. É uma tecnologia criada pela comunidade e tem a própria criptomoeda chamada de ETH (Ether ) que você pode comprar e vender.
 
-O que torna o Ethereum exclusivo é que ele é o "blockchain programável do mundo". Usando o Ethereum, você pode codificar definições de contrato, também conhecidas como contratos inteligentes. Os contratos inteligentes são usados para descrever como os participantes do blockchain transferem ativos digitais. O Solidity é a principal linguagem de programação usada para desenvolvimento na plataforma Ethereum, que foi criada e mantida por desenvolvedores do Ethereum.
+###### O que torna o Ethereum exclusivo é que ele é o "blockchain programável do mundo". Usando o Ethereum, você pode codificar definições de contrato, também conhecidas como contratos inteligentes. Os contratos inteligentes são usados para descrever como os participantes do blockchain transferem ativos digitais. O Solidity é a principal linguagem de programação usada para desenvolvimento na plataforma Ethereum, que foi criada e mantida por desenvolvedores do Ethereum.
 
-Máquina virtual do Ethereum
-Os contratos do Solidity são executados na EVM, a máquina virtual do Ethereum. É um ambiente de área restrita completamente isolado. Ele não acessa nada mais na rede além dos contratos que executa. Você não precisa saber muito mais sobre EVM por enquanto, mas lembre-se de que os contratos inteligentes do Solidity serão implantados e executados em um ambiente virtual.
+###### Máquina virtual do Ethereum&#xD;&#xA;Os contratos do Solidity são executados na EVM, a máquina virtual do Ethereum. É um ambiente de área restrita completamente isolado. Ele não acessa nada mais na rede além dos contratos que executa. Você não precisa saber muito mais sobre EVM por enquanto, mas lembre-se de que os contratos inteligentes do Solidity serão implantados e executados em um ambiente virtual.
 
+###### Compreenda os conceitos básicos da linguagem
 
+######
 
-# Compreenda os conceitos básicos da linguagem
+###### Todos os contratos do Solidity normalmente incluem:
 
-*   8 minutos
+###### Diretivas pragma
 
-Todos os contratos do Solidity normalmente incluem:
+###### Variáveis de estado
 
-*   Diretivas pragma
+###### Funções
 
-*   Variáveis de estado
+###### Eventos
 
-*   Funções
+###### Embora você precise saber mais para programar contratos inteligentes em nível de produção, essas informações deverão colocar você no caminho certo.
 
-*   Eventos
+###### Se você compreende esses conceitos, pode começar a escrever contratos inteligentes para uma variedade de usos de casos imediatamente.
 
-Embora você precise saber mais para programar contratos inteligentes em nível de produção, essas informações deverão colocar você no caminho certo.
+###### Diretivas pragma
 
-Se você compreende esses conceitos, pode começar a escrever contratos inteligentes para uma variedade de usos de casos imediatamente.
+###### **Pragma** é a palavra-chave que você usa para solicitar que o compilador verifique se sua versão do Solidity corresponde à necessária. Uma correspondência significa que o arquivo de origem pode ser executado com êxito. Se não houver correspondência, o compilador apresentará um erro.
 
-## Diretivas pragma
+###### Sempre inclua a versão mais recente do Solidity em sua definição de contrato. Para encontrar a versão atual do Solidity, acesse o [site do Solidity](https://solidity.readthedocs.io/). Use a versão mais recente no arquivo de origem.
 
-**Pragma** é a palavra-chave que você usa para solicitar que o compilador verifique se sua versão do Solidity corresponde à necessária. Uma correspondência significa que o arquivo de origem pode ser executado com êxito. Se não houver correspondência, o compilador apresentará um erro.
+###### Uma diretiva pragma de versão tem esta aparência:
 
-Sempre inclua a versão mais recente do Solidity em sua definição de contrato. Para encontrar a versão atual do Solidity, acesse o [site do Solidity](https://solidity.readthedocs.io/). Use a versão mais recente no arquivo de origem.
+###### `pragma solidity ^0.7.0;`
 
-Uma diretiva pragma de versão tem esta aparência:
+###### Essa linha significa que o arquivo de origem será compilado com um compilador superior à versão `0.7.0`, até `0.7.9`. Da versão `0.8.0` em diante, provavelmente haverá alterações significativas que causarão a falha na compilação do arquivo de origem.
 
-`pragma solidity ^0.7.0;`
+###### Variáveis de estado
 
-Essa linha significa que o arquivo de origem será compilado com um compilador superior à versão `0.7.0`, até `0.7.9`. Da versão `0.8.0` em diante, provavelmente haverá alterações significativas que causarão a falha na compilação do arquivo de origem.
+###### As variáveis de estado são fundamentais para qualquer arquivo de origem do Solidity. Os valores da variável de estado são armazenados permanentemente no armazenamento de contratos.
 
-## Variáveis de estado
+###### pragma solidity >0.7.0 <0.8.0;&#xA;&#xA;contract Marketplace {&#xA;    uint price; // State variable  &#xA;
 
-As variáveis de estado são fundamentais para qualquer arquivo de origem do Solidity. Os valores da variável de estado são armazenados permanentemente no armazenamento de contratos.
+###### ` Observação`
 
-```
-pragma solidity >0.7.0 <0.8.0;
+###### `Os arquivos de origem do contrato sempre começam com a definição undefinedundefinedundefined.`
 
-contract Marketplace {
-    uint price; // State variable  
+###### Neste exemplo, a variável de estado tem o nome `price` com o tipo `price`. O tipo de inteiro uint indica que essa variável é um inteiro sem sinal com 256 bits. Isso significa que ele pode armazenar números positivos no intervalo de 0 a 2256 -1.
 
-```
+###### Para todas as definições de variáveis, você deve especificar o tipo e o nome da variável.
 
-` Observação`
+###### Além disso, você pode especificar a visibilidade de uma variável de estado como:
 
-`Os arquivos de origem do contrato sempre começam com a definição undefinedundefinedundefined.`
+###### **pública:**
 
-Neste exemplo, a variável de estado tem o nome `price` com o tipo `price`. O tipo de inteiro uint indica que essa variável é um inteiro sem sinal com 256 bits. Isso significa que ele pode armazenar números positivos no intervalo de 0 a 2256 -1.
+######  parte da interface do contrato e pode ser acessada de outros contratos.
 
-Para todas as definições de variáveis, você deve especificar o tipo e o nome da variável.
+###### **interna:**
 
-Além disso, você pode especificar a visibilidade de uma variável de estado como:
+######  acessada somente dentro do contrato atual.
 
-*   **pública:**
+###### **privada:**
 
-     parte da interface do contrato e pode ser acessada de outros contratos.
+######  visível apenas para o contrato em que está definida.
 
-*   **interna:**
+###### Funções
 
-     acessada somente dentro do contrato atual.
+###### Em um contrato, as unidades de código executáveis são conhecidas como funções. As funções descrevem uma única ação para obter uma tarefa. Elas são reutilizáveis e também podem ser chamadas de outros arquivos de origem, como bibliotecas. As funções do Solidity se comportam de modo semelhante às funções em outras linguagens de programação.
 
-*   **privada:**
+###### Aqui está um exemplo básico de definição de uma função:
 
-     visível apenas para o contrato em que está definida.
+###### pragma solidity >0.7.0 <0.8.0;&#xA;&#xA;contract Marketplace {&#xA;    function buy() public {&#xA;        // ...&#xA;    }&#xA;}&#xA;
 
-## Funções
+###### Esse código mostra uma função com o nome `buy` que tem uma visibilidade pública, o que significa que pode ser acessado por outros contratos. O Functions pode usar um dos seguintes especificadores de visibilidade: **pública**, **privada**, **interna** e **externa**.
 
-Em um contrato, as unidades de código executáveis são conhecidas como funções. As funções descrevem uma única ação para obter uma tarefa. Elas são reutilizáveis e também podem ser chamadas de outros arquivos de origem, como bibliotecas. As funções do Solidity se comportam de modo semelhante às funções em outras linguagens de programação.
+###### Uma função pode ser chamada interna ou externamente de outro contrato. As funções podem aceitar parâmetros e retornar variáveis para passar parâmetros e valores entre eles.
 
-Aqui está um exemplo básico de definição de uma função:
+###### Aqui está um exemplo de uma função que aceita um parâmetro – um inteiro chamado `price` – e retorna um inteiro:
 
-```
-pragma solidity >0.7.0 <0.8.0;
+###### pragma solidity >0.7.0 <0.8.0;&#xA;&#xA;contract Marketplace {&#xA;    function buy(uint price) public returns (uint) {&#xA;        // ...&#xA;    }&#xA;}&#xA;
 
-contract Marketplace {
-    function buy() public {
-        // ...
-    }
-}
+###### Modificadores de função
 
-```
+###### Os modificadores de função podem ser usados para alterar o comportamento das funções. Eles funcionam verificando uma condição antes que ela seja executada. Por exemplo, uma função pode verificar se apenas um usuário designado como um vendedor pode listar um item para venda.
 
-Esse código mostra uma função com o nome `buy` que tem uma visibilidade pública, o que significa que pode ser acessado por outros contratos. O Functions pode usar um dos seguintes especificadores de visibilidade: **pública**, **privada**, **interna** e **externa**.
+###### pragma solidity >0.7.0 <0.8.0;&#xA;&#xA;contract Marketplace {&#xA;    address public seller;&#xA;&#xA;    modifier onlySeller() {&#xA;        require(&#xA;            msg.sender == seller,&#xA;            "Only seller can put an item up for sale."&#xA;        );&#xA;        \_;&#xA;    }&#xA;&#xA;    function listItem() public view onlySeller {&#xA;        // ...&#xA;    }&#xA;}&#xA;
 
-Uma função pode ser chamada interna ou externamente de outro contrato. As funções podem aceitar parâmetros e retornar variáveis para passar parâmetros e valores entre eles.
+###### Este exemplo apresenta os seguintes itens:
 
-Aqui está um exemplo de uma função que aceita um parâmetro – um inteiro chamado `price` – e retorna um inteiro:
+###### Uma variável com um tipo 
 
-```
-pragma solidity >0.7.0 <0.8.0;
+###### **address**
 
-contract Marketplace {
-    function buy(uint price) public returns (uint) {
-        // ...
-    }
-}
+######  que armazena o endereço Ethereum de 20 bytes do usuário vendedor. Você aprenderá mais sobre essas variáveis mais adiante neste módulo.
 
-```
+###### Um modificador chamado 
 
-### Modificadores de função
+###### `onlySeller`
 
-Os modificadores de função podem ser usados para alterar o comportamento das funções. Eles funcionam verificando uma condição antes que ela seja executada. Por exemplo, uma função pode verificar se apenas um usuário designado como um vendedor pode listar um item para venda.
+######  que descreve que apenas um vendedor pode listar um item.
 
-```
-pragma solidity >0.7.0 <0.8.0;
+###### Um símbolo especial 
 
-contract Marketplace {
-    address public seller;
+###### `_;`
 
-    modifier onlySeller() {
-        require(
-            msg.sender == seller,
-            "Only seller can put an item up for sale."
-        );
-        _;
-    }
+######  para indicar em que local o corpo da função é inserido.
 
-    function listItem() public view onlySeller {
-        // ...
-    }
-}
+###### Uma definição de função que usa o modificador 
 
-```
+###### `onlySeller`
 
-Este exemplo apresenta os seguintes itens:
+###### .
 
-*   Uma variável com um tipo 
+###### Modificadores de função adicionais que podem ser usados na definição de função:
 
-    **address**
+###### **pure**
 
-     que armazena o endereço Ethereum de 20 bytes do usuário vendedor. Você aprenderá mais sobre essas variáveis mais adiante neste módulo.
+######  para descrever funções que não permitem modificações nem acesso ao estado.
 
-*   Um modificador chamado 
+###### **view**
 
-    `onlySeller`
+######  para descrever funções que não permitem modificações de estado.
 
-     que descreve que apenas um vendedor pode listar um item.
+###### **payable**
 
-*   Um símbolo especial 
+######  para descrever as funções que podem receber Ether.
 
-    `_;`
+###### Eventos
 
-     para indicar em que local o corpo da função é inserido.
+###### Eventos descrevem as ações que são executadas no contrato. Semelhante às funções, os eventos têm parâmetros que precisam ser especificados quando o evento é chamado.
 
-*   Uma definição de função que usa o modificador 
+###### Para chamar um evento, você deve usar a palavra-chave **emit** com o nome do evento e os parâmetros dele.
 
-    `onlySeller`
+###### pragma solidity >0.7.0 <0.8.0;&#xA;&#xA;contract Marketplace {&#xA;    event PurchasedItem(address buyer, uint price);&#xA;&#xA;    function buy() public {&#xA;        // ...&#xA;        emit PurchasedItem(msg.sender, msg.value);&#xA;    }&#xA;}&#xA;
 
-    .
-
-Modificadores de função adicionais que podem ser usados na definição de função:
-
-*   **pure**
-
-     para descrever funções que não permitem modificações nem acesso ao estado.
-
-*   **view**
-
-     para descrever funções que não permitem modificações de estado.
-
-*   **payable**
-
-     para descrever as funções que podem receber Ether.
-
-## Eventos
-
-Eventos descrevem as ações que são executadas no contrato. Semelhante às funções, os eventos têm parâmetros que precisam ser especificados quando o evento é chamado.
-
-Para chamar um evento, você deve usar a palavra-chave **emit** com o nome do evento e os parâmetros dele.
-
-```
-pragma solidity >0.7.0 <0.8.0;
-
-contract Marketplace {
-    event PurchasedItem(address buyer, uint price);
-
-    function buy() public {
-        // ...
-        emit PurchasedItem(msg.sender, msg.value);
-    }
-}
-
-```
-
-Quando você chama um evento, ele é capturado como uma transação no log de transações, que é uma estrutura de dados especial no blockchain. Esses logs são associados ao endereço do contrato, são incorporados ao blockchain e permanecem lá para sempre. O log e seus dados de evento não estão acessíveis de dentro de contratos e não podem ser modificados.
-
-Concluído100 XPSolidityCopiarSolidityCopiarSolidityCopiarSolidityCopiarSolidityCopiar
+###### Quando você chama um evento, ele é capturado como uma transação no log de transações, que é uma estrutura de dados especial no blockchain. Esses logs são associados ao endereço do contrato, são incorporados ao blockchain e permanecem lá para sempre. O log e seus dados de evento não estão acessíveis de dentro de contratos e não podem ser modificados.
 
