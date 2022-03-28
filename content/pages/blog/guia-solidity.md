@@ -7,14 +7,6 @@ metaTags: []
 title: Guia Completo de Solidity Grátis
 date: '2022-03-28'
 excerpt: >-
-  O que é o Solidity
-
-  Concluído
-
-  100 XP
-
-  5 minutos
-
   O Solidity é uma linguagem orientada a objeto para escrever contratos
   inteligentes.
 
