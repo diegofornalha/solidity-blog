@@ -380,4 +380,141 @@ constructor() public {
 
 
 
+# Explorar documentos de referência
+
+Ao escrever contratos, você também deve compreender os tipos de referência.
+
+Ao contrário dos tipos de valor, que sempre passam uma cópia independente do valor, os tipos de referência fornecem um **local de dados** para o valor. Os três tipos de referência são: **structs**, **matrizes** e **mapeamentos**.
+
+## Local dos dados
+
+Ao usar um tipo de referência, você deve fornecer explicitamente o local de armazenamento de dados para ele. As seguintes opções podem ser usadas para especificar o local dos dados em que o tipo é armazenado:
+
+*   `memory`:
+
+    *   O local em que os argumentos de função são armazenados.
+
+    *   Tem um tempo de vida limitado ao tempo de vida de uma chamada de função externa.
+
+*   `storage`:
+
+    *   O local em que as variáveis de estado são armazenadas.
+
+    *   Tem um tempo de vida limitado ao tempo de vida do contrato.
+
+*   `calldata`:
+
+    *   O local em que os argumentos de função são armazenados.
+
+    *   Este local é necessário para parâmetros de funções externas, mas também pode ser usado para outras variáveis.
+
+    *   Tem um tempo de vida limitado ao tempo de vida de uma chamada de função externa.
+
+Tipos de referência sempre criam uma cópia independente dos dados.
+
+Aqui está um exemplo de como usar um tipo de referência:
+
+```
+contract C {
+
+  uint[] x;
+  
+  // the data location of values is memory
+  function buy(uint[] memory values) public {
+      x = value; // copies array to storage
+      uint[] storage y = x; //data location of y is storage
+      g(x); // calls g, handing over reference to x
+      h(x); // calls h, and creates a temporary copy in memory
+  }
+
+  function g(uint[] storage) internal pure {}
+  function h(uint[] memory) public pure {}
+}
+
+```
+
+## Matrizes
+
+As matrizes são uma forma de armazenar dados semelhantes em uma estrutura de dados definida. As matrizes podem ter um tamanho fixo ou dinâmico. Seus índices começam em 0.
+
+Para criar uma matriz de `k` de tamanho fixo e tipo de elemento `T`, você escreveria `T[k]`. Para uma matriz de dimensionamento dinâmico, você escreveria `T[]` .
+
+Elementos de matriz podem ser de qualquer tipo. Por exemplo, podem conter **uint**, **memória** ou **bytes**. As matrizes também podem incluir **mapeamentos** ou **structs**.
+
+Os exemplos a seguir mostram a criação da matriz:
+
+```
+uint[] itemIds; // Declare a dynamically sized array called itemIds
+uint[3] prices = [1, 2, 3]; // initialize a fixed size array called prices, with prices 1, 2, and 3
+uint[] prices = [1, 2, 3]; // same as above
+
+```
+
+### Membros de matriz
+
+Os seguintes membros podem manipular e obter informações sobre matrizes:
+
+*   **length**: obter o comprimento de uma matriz.
+
+*   **push()**: acrescentar um elemento no final da matriz.
+
+*   **pop**: remover um elemento do final de uma matriz.
+
+Estes são alguns exemplos:
+
+```
+// Create a dynamic byte array
+bytes32[] itemNames;
+itemNames.push(bytes32("computer")); // adds "computer" to the array
+itemNames.length; // 1
+
+```
+
+## Estruturas
+
+Structs são tipos personalizados que um usuário pode definir para representar objetos do mundo real. Normalmente, structs são usados como um esquema ou para representar registros.
+
+Exemplo de uma declaração de estrutura:
+
+```
+struct Items_Schema {
+    uint256 _id;
+    uint256 _price;
+    string _name;
+    string _description;
+}
+
+```
+
+## Tipos de mapeamento
+
+Os mapeamentos são pares chave-valor encapsulados ou empacotados juntos. Os mapeamentos estão mais próximos de dicionários ou objetos em JavaScript. Normalmente, você usa mapeamentos para modelar objetos do mundo real e realizar pesquisas de dados mais rápidas. Os valores podem incluir tipos complexos como structs, o que torna o tipo de mapeamento flexível e legível por humanos.
+
+O exemplo de código a seguir usa o struct `Items_Schema` e salva uma lista de itens representados pelo `Items_Schema` como um dicionário. Dessa forma, o mapeamento imita um banco de dados.
+
+```
+contract Items {
+    uint256 item_id = 0;
+
+    mapping(uint256 => Items_Schema) public items;
+
+    struct Items_Schema {
+      uint256 _id:
+      uint256 _price:
+      string _name;
+    }
+
+    function listItem(uint 256 memory _price, string memory _name) public {
+      item_id += 1;
+      item[vehicle_id] = Items_Schema(item_id, _price, _name);
+    }
+}
+
+```
+
+` Observação`
+
+`A assinatura de mapeamento uint256 => Items_Schema indica que as chaves são um tipo inteiro sem sinal e os valores são de tipo struct Items_Schema.`
+
+
 
