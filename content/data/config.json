@@ -126,5 +126,6 @@
                 ]
             }
         }
-    }
+    },
+    "defaultSocialImage": "/images/solidity blockchain.jpg"
 }
