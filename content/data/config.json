@@ -88,12 +88,6 @@
             },
             {
                 "type": "Link",
-                "label": "FAQ",
-                "url": "https://coflow.com.br/faq",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "Blog Principal",
                 "url": "https://coflow.com.br/blog",
                 "altText": "Blog Principal"
