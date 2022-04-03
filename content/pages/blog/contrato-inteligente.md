@@ -18,20 +18,17 @@ featuredImage:
   caption: CONTRATO INTELIGENTE
 bottomSections: []
 ---
-# VERIFICAÇÃO PADRÃO DE SEGURANÇA 
-
 O Smart Contract Security Verification Standard é uma lista de verificação para padronizar a segurança de contratos inteligentes. Esta lista ajuda a evitar a maioria dos problemas de segurrança e vulnerabilidades conhecidos. A lista está disponibilizado em todas as fases do ciclo de desenvolvimento da contratação.
-
 
 ## Gravidade do risco
 
-O padrão não inclui a gravidade dos riscos relacionados aos requisitos. A modelagem de ameaças e a análise de risco são partes importantes da avaliação de segurança. Cada aplicativo é única, assim como os agentes de ameaças, seus objetivos e o impacto de uma violação. 
+O padrão não inclui a gravidade dos riscos relacionados aos requisitos. A modelagem de ameaças e a análise de risco são partes importantes da avaliação de segurança. Cada aplicativo é única, assim como os agentes de ameaças, seus objetivos e o impacto de uma violação.
 
-A categoria da lista os requisitos relacionados à arquitetura, design e modelagem de ameaças dos contratos inteligentes. Os projetistas devem garantir que um contrato verificado satisfaça os seguintes requisitos de alto nível:. 
+A categoria da lista os requisitos relacionados à arquitetura, design e modelagem de ameaças dos contratos inteligentes. Os projetistas devem garantir que um contrato verificado satisfaça os seguintes requisitos de alto nível:.
 
-1\) Todos os contratos inteligentes relacionados são identificados e usados adequadamente, 
+1\) Todos os contratos inteligentes relacionados são identificados e usados adequadamente,
 
-2\) Suposições de segurança específicas de contratos inteligentes são consideradas durante a fase de design  
+2\) Suposições de segurança específicas de contratos inteligentes são consideradas durante a fase de design
 
 3\) Os modelos de ameaças devem considerar todas as ameaças possíveis antes da implementação de tal contrato inteligente.
 
@@ -71,9 +68,9 @@ Verifique se a entrada (parâmetros de função) é validada, a abordagem de val
 
 ## USO DE GÁS E LIMITAÇÕES
 
-Certifique-se de que um contrato verificado satisfaça os seguintes requisitos de alto nível:. 
+Certifique-se de que um contrato verificado satisfaça os seguintes requisitos de alto nível:.
 
-1\) O uso do gás é otimizado e perdas desnecessárias são evitadas. 
+1\) O uso do gás é otimizado e perdas desnecessárias são evitadas.
 
 2\) Os contratos inteligentes possuem diferentes limitações que, se não forem levadas em consideração, podem causar diferentes vulnerabilidades.
 
@@ -94,6 +91,3 @@ Um contrato verificado deve atender aos seguintes requisitos de alto nível ante
 https://media-exp1.licdn.com/dms/document/C4D1FAQFppuRcIQrjeQ/feedshare-document-pdf-analyzed/0/1648668033458?e=2147483647\&v=beta\&t=PK2EM0\_mfZvLx68FG\_7xXX5qiBDFLY8bwPH9Ws2E3WY
 
 https://quillbot.com/summarize
-
-
-
