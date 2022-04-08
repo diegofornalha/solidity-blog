@@ -87,7 +87,7 @@ O Solidity é uma linguagem orientada a objeto para escrever contratos inteligen
 
 Contratos inteligentes são programas armazenados dentro de um blockchain. Eles especificam as regras e o comportamento de como os ativos digitais são transferidos. Você usa o Solidity para programar contratos inteligentes para a plataforma de blockchain Ethereum. Os contratos inteligentes contêm lógica programável e estado. As transações resultam em funções executadas em contratos inteligentes. Assim, os contratos inteligentes permitem que você crie um fluxo de trabalho empresarial.
 
-O Solidity é a linguagem de programação mais popular para o blockchain Ethereum.
+O Solidity é a linguagem de programação mais popular para o blockchain.
 
 O Solidity é uma linguagem de alto nível baseada em outras linguagens de programação, incluindo C++, Python e JavaScript. Caso você conheça qualquer uma dessas linguagens, o código do Solidity vai parecer familiar.
 
@@ -96,9 +96,6 @@ O Solidity tem tipo estático, o que significa que a verificação de tipo ocorr
 O Solidity dá suporte à herança, o que significa que as funções, variáveis e outras propriedades presentes em um contrato podem ser usadas em outra. A linguagem também dá suporte a tipos complexos definidos pelo usuário, como structs e enums, que permitem agrupar tipos de dados relacionados.
 
 O Solidity é uma linguagem de programação de software livre com uma comunidade crescente de colaboradores. Para saber mais sobre o projeto do Solidity e como contribuir, confira o repositório do GitHub.
-
-O que é o Ethereum?
-Antes de continuarmos, você também deve familiarizar-se com o Ethereum.
 
 O Ethereum é uma das plataformas blockchain mais populares, logo atrás do Bitcoin. É uma tecnologia criada pela comunidade e tem a própria criptomoeda chamada de ETH (Ether ) que você pode comprar e vender.
 
@@ -112,13 +109,13 @@ Compreenda os conceitos básicos da linguagem
 
 Todos os contratos do Solidity normalmente incluem:
 
-Diretivas pragma
+**Diretivas pragma**
 
-Variáveis de estado
+**Variáveis de estado**
 
-Funções
+**Funções**
 
-Eventos
+**Eventos**
 
 Embora você precise saber mais para programar contratos inteligentes em nível de produção, essas informações deverão colocar você no caminho certo.
 
@@ -155,11 +152,11 @@ Para todas as definições de variáveis, você deve especificar o tipo e o nome
 
 Além disso, você pode especificar a visibilidade de uma variável de estado como:
 
-\*\*pública: \*\*parte da interface do contrato e pode ser acessada de outros contratos.
+pública: parte da interface do contrato e pode ser acessada de outros contratos.
 
-\*\*interna: \*\*acessada somente dentro do contrato atual.
+interna: acessada somente dentro do contrato atual.
 
-\*\*privada: \*\*visível apenas para o contrato em que está definida.
+privada: visível apenas para o contrato em que está definida.
 
 ## Funções
 
@@ -576,3 +573,4 @@ Acesse [Remix IDE](https://remix.ethereum.org/) para explorar mais exemplos de
 Copie e cole este contrato inteligente no [Remix ](https://solidity.coflow.com.br/blog/remix/)em um novo arquivo chamado `Marketplace.sol`. Em seguida, compile e implante o contrato. Embora o contrato tenha uma função para comprar um item disponível, você observará que não é possível fornecer uma moeda do comprador para fazer a compra. Como desafio extra, use o que você aprendeu para escrever uma função para dar um saldo ao comprador, fornecendo um endereço de conta e um valor. Se quiser ver um exemplo de como fazer isso, assista ao [Dr. G adicionar uma função para inicializar um saldo para os participantes](https://aka.ms/LearnWithDrG/Blockchain/Challenge1).
 
 <div style="text-align: center;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/OXppqr8qheo?start=475" title="YouTube video player" width="560"></iframe></div>
+
