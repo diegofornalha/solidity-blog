@@ -7,9 +7,7 @@ socialImage: null
 metaTags: []
 title: Variável Interna e variável de Estado
 date: '2022-04-11'
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+excerpt: Variável Interna e variável de Estado
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
