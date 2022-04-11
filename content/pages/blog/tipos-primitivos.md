@@ -15,7 +15,7 @@ featuredImage:
   caption: ''
 bottomSections: []
 ---
-# Tipos Variaveis e Primitivos
+#
 
 ### Booleano.
 
