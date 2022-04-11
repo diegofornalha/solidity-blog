@@ -7,9 +7,7 @@ socialImage: null
 metaTags: []
 title: Tipos Primitivos
 date: '2022-04-11'
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+excerpt: Tipos Primitivos
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
