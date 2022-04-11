@@ -5,7 +5,7 @@ metaDescription: null
 addTitleSuffix: true
 socialImage: null
 metaTags: []
-title: Tipos Primitivos
+title: Tipos Variaveis e Primitivos
 date: '2022-04-11'
 excerpt: Tipos Primitivos
 featuredImage:
